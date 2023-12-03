@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe Page</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar">
+      <div class="nav-center">
+         <!-- header-->
+         <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo-no-background.svg" alt="recipes" height="150px">
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+         </div>
+          <!-- links -->
+         <div class="nav-links">
+           <a href="index.html" class="nav-link">home</a>
+           <a href="about.html" class="nav-link">about</a>
+           <a href="tags.html" class="nav-link">tags</a>
+           <a href="recipes.html" class="nav-link">recipes</a>
+           <div class="nav-link contact-link">
+              <a href="contact.html" class="btn">contact</a>
+           </div>
+         </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/recipe-1.jpeg" class="img recipe-hero-img" alt="Margherita"/>
+          <article>
+            <h2>Margherita</h2>
+            <p>Margherita pizza, a true Italian classic, is a testament to simplicity and exquisite taste. 
+              Named after Queen Margherita of Italy, this iconic pizza embodies the vibrant colors of 
+              the Italian flag with its combination of fresh tomatoes, mozzarella cheese, and basil leaves. 
+              The harmony of flavors is a culinary delight - the sweetness of sun-ripened tomatoes, t
+              he creaminess of melted mozzarella, and the aromatic freshness of basil, all resting on 
+              a crispy yet chewy crust. This pizza celebrates the essence of Italian cuisine, showcasing 
+              how a few quality ingredients can create an unforgettable gastronomic experience. 
+              The Margherita pizza is not just a dish; it's a legacy, representing the rich heritage 
+              and love for authentic flavors that resonate from Naples to the world.
+            </p>
+            <!-- recipe icons -->
+            <div class="recipe-icons">
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>01 hr.</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>07 min.</p>
+              </article>
+              <!-- single recipe icon -->
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <!-- recipe tags -->
+            <div class="recipe-tags">
+              <a href="tag-template.html">Pizza</a>  
+              <a href="tag-template.html">Pasta</a>
+              <a href="tag-template.html">Dinner</a>
+              <a href="tag-template.html">Food</a>            
+            </div>
+          </article>
+        </section>
+        <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instructions">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Start by preheating your oven to its highest temperature.
+              </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instructions">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Roll out pizza dough, spread a layer of tomato sauce, 
+                add fresh slices of mozzarella cheese, and top it with fresh basil leaves.
+              </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instructions">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Bake the pizza in the hot oven for around 10-15 minutes or until 
+                the crust is golden and the cheese is bubbly.
+              </p>
+            </div>
+          </article>
+          <article class="second-cloumn">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                One standard-sized pizza dough ball
+              </p>
+              <p class="single-ingredient">
+                1/2 to 3/4 cup (120-180 ml) of tomato sauce
+              </p>
+              <p class="single-ingredient">
+                Approx. 200-250 grams of fresh mozzarella cheese
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Baking Sheet</p>
+              <p class="single-tool">Pizza Peel</p>
+              <p class="single-tool">Rolling Pin</p>
+              <p class="single-tool">Pizza Cutter</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date">2023</span>
+        <span class="footer- logo">recipes</span>
+        built by Devin Chandula
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
